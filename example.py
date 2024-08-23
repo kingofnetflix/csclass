@@ -1,7 +1,16 @@
 # This is our notes but in Python. You can use this for coding references if you want!
 # Made with love by kingofnetflix <3
 
-
+# Printing
+"""
+\t (tab) 
+\r (reset) 
+\n (new line) 
+\\ (displays one backslash when printed)
+\” (displays one double quote when printed
+\’ (displays one single quote when printed
+"""
+print("Look I can go down here!\nWooo!")
 # Integer variable
 x = 5
 # Float variable
@@ -20,7 +29,7 @@ if bool == True:
     print("The boolean is true")
 # Identifiers - Being specific with variable names
 name = "Sidster"
-if name is "Sidster": # Make sure to remember, its Name not name
+if name == "Sidster": # Make sure to remember, its Name not name
     print("Sidster")
     # Commas allow you to print multiple things on the same line
     print(name, "is", "awesome!")
