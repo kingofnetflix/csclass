@@ -19,11 +19,11 @@ bool = True
 if bool == True:
     print("The boolean is true")
 # Identifiers - Being specific with variable names
-Name = "Sidster"
-if Name is "Sidster": # Make sure to remember, its Name not name
+name = "Sidster"
+if name is "Sidster": # Make sure to remember, its Name not name
     print("Sidster")
     # Commas allow you to print multiple things on the same line
-    print(Name, "is", "awesome!")
+    print(name, "is", "awesome!")
 # Casting - Numbers in Strings need to cast to an int or float
 numString = "56"
 print(4 + int(numString)) # This will change the string to a integer (due to the int() void)
