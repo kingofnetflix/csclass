@@ -1,6 +1,8 @@
 # This is our notes but in Python. You can use this for coding references if you want!
 # Made with love by kingofnetflix <3
 
+# Python Basics
+
 # Printing
 """
 \t (tab) 
