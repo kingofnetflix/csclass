@@ -1,7 +1,7 @@
-# This is our notes but in Python. You can use this for coding references if you want!
-# Made with love by kingofnetflix <3
+## This is our notes but in Python. You can use this for coding references if you want!
+## Made with love by kingofnetflix <3
 
-# Python Basics
+## Python Basics
 
 # Printing
 """
@@ -45,3 +45,33 @@ num = int(input("Pick a number: "))
 print("Your number is", num) # We can use the var instantly since it is already casted
 floater = float(input("Enter a decimal value: "))
 print("You inputted", floater) # We can use the var instantly since it is already casted
+
+# Math Operators
+
+# Addition
+result = 5 + 3
+print("Addition:", result)
+
+# Subtraction
+result = 10 - 4
+print("Subtraction:", result)
+
+# Multiplication
+result = 6 * 2
+print("Multiplication:", result)
+
+# Division
+result = 15 / 3
+print("Division:", result)
+
+# Floor Division
+result = 15 // 4
+print("Floor Division:", result)
+
+# Modulus (Getting the remainder)
+result = 15 % 4
+print("Modulo:", result)
+
+# Exponential
+result = 5 ** 2
+print("Exponentiation:", result)
