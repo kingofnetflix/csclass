@@ -75,3 +75,13 @@ print("Modulo:", result)
 # Exponential
 result = 5 ** 2
 print("Exponentiation:", result)
+
+# Functions
+def Skibidi_Function():
+    ip = "mc.240hz.tech"
+    if ip == "mc.240hz.tech":
+        print("you got the right ip!")
+
+# Parameters
+def sayHello(parameter): # if parameter is not a string this wont work (this can be checked)
+	print("Hello", parameter);   # this code says hello to a name passed with a parameter 
