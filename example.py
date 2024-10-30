@@ -1,6 +1,7 @@
-## This is our notes but in Python. You can use this for coding references if you want!
-## Made by kingofnetflix 
+## This is our notes but in Python. Should be 1 : 1 but if I missed anything let me know (not you viewing my profile).
+## You can use this for coding references if you want!
 
+## 
 ## Python Basics
 
 # Printing
@@ -85,3 +86,21 @@ def Skibidi_Function():
 # Parameters
 def sayHello(parameter): # if parameter is not a string this wont work (this can be checked)
 	print("Hello", parameter);   # this code says hello to a name passed with a parameter 
+
+
+# Logical Not
+# Not is used to negate something or basically to get the opposite
+num = 97
+if not num % 2 == 0:
+    print("Number is odd")
+else:
+    print("Number is even")
+
+# Logical Or
+# Logical or requires that at least one piece of the condition must be true
+x = 50
+y = 700
+if x < 10 or y < 50:
+    print('Fun')
+else:
+    print('Wow')
